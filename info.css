@@ -63,6 +63,21 @@ audio {
   top: 781px;
 }
 
+.noarmed {
+  left: 447px;
+  top: 239px;
+	transition: opacity 0s;
+
+}
+
+.noarmed:hover{
+	opacity: 1;
+}
+
+.armed {
+	 left: 447px;
+  top: 239px;
+}
 .player{
 	position: absolute;
 	left: 500px;
