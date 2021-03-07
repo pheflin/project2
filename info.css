@@ -4,6 +4,10 @@ padding: 0;
 margin: 0; }
 img {position: absolute;}
 
+audio {
+	position: absolute;
+}
+
 .Trex{
 	opacity: 0;
 	  left: 1677px;
@@ -57,5 +61,12 @@ img {position: absolute;}
 	opacity: 0;
 	left: 116px;
   top: 781px;
-
 }
+
+.player{
+	position: absolute;
+	left: 500px;
+	top: 50px;
+	z-index: 100;
+}
+
